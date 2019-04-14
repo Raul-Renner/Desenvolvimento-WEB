@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="css/estilo.css">
+	<title>Reservar Quarto</title>
+</head>
+<body>
+	<main>
+            <header id = "header1" id = "topo"><img src="img/frente.jpeg" style="width: 955px;"></header>
+
+			<nav>
+				<ul>
+					<li><a href="main.html">Home</a></li>
+					<li><a href="hotel.html">Nossas Instalações</a></li>
+					<li><a href="quartos.html">Quartos</a></li>
+					<li><a href="trabalhe.html">Trabalhe Conosco</a></li>
+					<li><a href="login.html">login</a></li>
+				</ul>
+			</nav>	
+		<form class="form">
+			<ul>
+				<li>
+					<h2>Solicitar Reservar</h2>
+
+				</li>
+				<li>
+					<label for="nome">Nome:</label>
+					<input type="text" name="nome">
+				</li>
+				<li>
+					<label for="cpf">CPF:</label>
+					<input type="text" name="cpf" required>
+				</li>
+				<li>
+					<label for="telefone">Telefone:</label>
+					<input type="tel" name="telefone">
+				</li>
+				<li>
+					<label for="email" >Email:</label>
+					<input type="text" name="email" placeholder="ex:abcde@email.com" required>
+				</li>
+				
+				<li>
+					<label for="data-entrada">Data de Entrada:</label>
+					<input type="date" name="data-entrada" required>
+				</li>
+				<li>
+					<label for="data-saida">Data de Saida:</label>
+					<input type="date" name="data-saida" required>
+				</li>
+				<li>
+					<label for="qtd-pessoas">Quantidade de Pessoas:</label>
+					<input id = "number" type="number" name="qtd-pessoas" min="1" max="4" value="1" required>
+				</li>
+				<li>
+					<label for="opcao_quarto">Tipo de quarto pretendido: </label>
+					<select id="quartos" required>
+						<option value="luxo">Luxo</option>
+						<option value="premium">Premium</option>
+						<option value="presidencial">Presidencial</option>
+					</select>
+					
+				</li>
+				<li>
+						<label for="pagamento">Forma de Pagamento: </label>
+					
+						<select id="pagamento" required>
+							<option value="credito">Crédito</option>
+							<option value="debito">Débito</option>
+							<option value="dinheiro">Dinheiro</option>
+						</select>
+						
+				</li>
+
+					<li>
+							<button class="confirmar" id="confirmar" type ="submit">Confirmar</button> 
+							<button class="confirmar" id="resetar" type ="reset">Limpar</button> 
+
+					</li>	
+										
+
+			</ul>
+		</form>
+		
+		<footer>
+				<p>Hotel Luar do Sertão - Rua José Enéas de Lima - Centro - Contato:(88)992912343 - Quixadá-CE</p>
+				<p><b>Email:</b> luarDoSertao.quixada@gmail.com</p>
+				<p><small>&copy; Copyright 2019 - <a href="https://www.facebook.com/" title="Facebook" class ="tooltip" rel="tooltip" type="facebook">f</a>
+					<a href="https://twitter.com/?lang=pt" title="twitter" rel="tooltip" class ="tooltip" type="Twitter">t</a> </small></p>
+			</footer>
+	</main>
+	
+</body>
+</html>

@@ -1,0 +1,425 @@
+/*main */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #000;
+}
+main{
+    width: 955px; margin: -1px auto 10px;
+    border:1px solid #ddd; background-image: url(../img/fundo.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+#header1{
+    background-color:dodgerblue;
+    width: 955px;
+    height: 95px;    
+}
+#header1 h1{
+    color: black;
+    text-align: center;
+    font-size: 50px;
+}
+nav{width: 955px; background-color:yellow;}
+nav ul{
+    list-style:none;
+    margin: 0px;
+    padding: 4px;
+
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    font-size: 1.0em;
+    text-decoration: none;
+    color: black;
+    padding:4px 20px;
+}
+nav ul li a:hover{
+    background-color:dodgerblue;
+}
+article{
+    float: left;
+    margin: 30px 20px;
+    width: 600px;
+    height:450px;
+}
+article header h2{
+    margin: 0px;
+}
+
+.bloco-atracao{
+        float: left;
+        margin: 30px 20px;
+        width: 550px;
+        height:300px;
+        
+    
+}
+#mapa{
+   float: right;
+   width: 300px;
+   margin-top: 20px;
+    
+}
+#mapa-img{
+    width:  275px;
+    height: 299px;
+}
+.imgAtracoes{
+    
+    border: 1px solid #000;
+    margin-right:14px;
+    width:250px;
+    height:250px;
+}
+#atracao{
+    float: left;
+}
+#atracao h3{
+    margin-left: 5px;
+}
+figure{
+    float: left;
+    margin-left:15px;
+    border: 1px solid #9999;
+    padding: 3px;
+    margin-bottom: 8px;
+    width: 250px;
+    margin-right: 10px;
+}
+figcaption{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:12px;
+    background-color:black;
+    width: 250px;
+}
+
+#familia{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+#comentario{
+    margin-top: 10px;
+}
+.comentario{
+    float: right;
+    width: 260px;
+    border-top: 1px solid blue;
+    border-bottom: 1px solid blue;
+    padding: 10px 20px 10px;
+    font-style: italic;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background: url(../img/aspas.gif) no-repeat;
+    
+}
+aside p{
+    color: #999;
+    margin-left: 30px;
+}
+
+
+
+
+/*RODAPÉ */
+footer{
+    clear: both;
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 15px;
+    font-size: 0.95em;
+    text-align: center;
+    padding: 5px;
+    background-color: #9999;
+}
+.tooltip{
+    padding: 3px 10px;
+    background: #000;
+    opacity: 0.50;
+    color: #fff;
+    -moz-border-radius: 9px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+/* ARQUIVO HOTEL.html */
+#container{
+
+    width: 480px;
+    height:auto;
+    margin: 20px 0px 10px 250px;
+    background-color:black;
+    
+    
+}
+.titulo{
+    margin-top: 80px;
+    margin-left: 30px;
+}
+
+.principal-lazer{
+    width: 480px;
+    height: 270px;
+    overflow: hidden;
+}
+.slide{
+    display:flex;
+    width: 400%;
+    transition: all .8s;
+}
+label img{
+    width: 120px;
+    cursor: pointer;
+    opacity: 0.3;
+    transition: all .4s;
+    float: left;
+}
+
+#foto2:checked ~ .principal-lazer .slide{
+    margin-left: -100%;
+}
+#foto3:checked ~ .principal-lazer .slide{
+    margin-left: -200%;
+}
+#foto4:checked ~ .principal-lazer .slide{
+    margin-left: -300%;
+}
+
+#foto6:checked ~ .principal-lazer .slide{
+    margin-left: -100%;
+}
+#foto7:checked ~ .principal-lazer .slide{
+    margin-left: -200%;
+}
+#foto8:checked ~ .principal-lazer .slide{
+    margin-left: -300%;
+}
+
+#foto10:checked ~ .principal-lazer .slide{
+    margin-left: -100%;
+}
+#foto11:checked ~ .principal-lazer .slide{
+    margin-left: -200%;
+}
+#foto12:checked ~ .principal-lazer .slide{
+    margin-left: -300%;
+}
+
+
+#foto14:checked ~ .principal-lazer .slide{
+    margin-left: -100%;
+}
+#foto15:checked ~ .principal-lazer .slide{
+    margin-left: -200%;
+}
+#foto16:checked ~ .principal-lazer .slide{
+    margin-left: -300%;
+}
+
+
+input[name="grupo"]{
+    display: none;
+}
+input[name="grupo"]:checked + label img{
+    opacity: .9;
+}
+.areas{
+    margin: 30px 0px 0px 40px;
+    text-align: center;
+}
+#topo{
+    margin-top: 120px;
+}
+.descricao-slide{
+    margin-left: 250px;
+}
+
+span{
+background-color: blue;
+
+}
+
+/* ARQUIVO QUARTOS*/
+.seçao1 h3{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.seçao1{
+    width: 945px;
+    height: 280px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin: 30px 10px 0px 10px;
+    border: 1px transparent #ddd;
+}
+.figure-quartos{
+    float: left;
+    margin-left:15px;
+    border: 1px transparent #ddd;
+    padding: 3px;
+    margin-bottom: 8px;
+    width: 300px;
+    margin-right: 10px;  
+}
+.descricao{
+    float: left;
+    margin-right: 50px;
+    margin-left: 20px;
+    height: 200px;
+    width: 500px;
+}
+.descricao ul li{
+    text-decoration: none;
+    list-style: none;
+    padding: 3px 0px 3px;
+}
+.btn{
+    float: right;
+    width: 130px;
+    height: 25px;
+    background-color:darkblue ;
+    color: #ddd;
+    font-size: 17px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 70px 0px 0px 10px;
+}
+#seçao2{
+    width: 945px;
+    height: 280px;
+    margin-top: 20px;
+    margin: 30px 10px 0px 10px;
+
+    border: 1px transparent #ddd; 
+}
+#figure-quartos{
+    float: left;
+    margin-left:15px;
+    border: 1px solid #ddd;
+    padding: 3px;
+    margin-bottom: 8px;
+    width: 300px;
+    margin-right: 10px;
+    margin-top: 30px;  
+}
+#descricao{
+    float: left;
+    margin-right: 50px;
+    margin-left: 20px;
+    height: 200px;
+    width: 500px;
+    margin-top: 35px;
+}    
+
+/*ARQUIVO SOLICITAR RESERVAR*/
+
+.form ul{
+    width: 955px;
+    list-style-type: none;
+    list-style-position: outside;
+    margin: 0px;
+    padding: 0px;
+    
+}
+.form li{
+padding: 12px;
+border-bottom: 1px transparent #eee;
+position: relative;
+
+}
+
+form h2{
+    margin: 0px;
+    display: inline;
+}
+.form label{
+    width: 150px;
+    margin-top: 3px;
+    display: inline-block;
+    float: left;
+    padding: 0px;
+}
+.form input{
+    height: 20px;
+    width: 200px;
+    padding: 5px 8px;
+
+}
+.form button{
+    margin-left: 50px;
+}
+.form input{
+    border: 1px solid #aaa;
+    box-shadow: 0px 0px 3px #ccc;
+    border-radius: 2px;
+}
+.form input:focus{
+    background: #fff;
+    border: 1px solid #555;
+    box-shadow: 0 0 3px #aaa;
+}
+.confirmar{
+    background-color: steelblue;
+    background: -webkit-linear-gradient(top, #2f5db1, #2f5db1);
+    background: -moz-linear-gradient(top, #2f5db1,  #2f5db1);
+    background: -ms-linear-gradient(top, #2f5db1, #2f5db1);
+    background: -o-linear-gradient(top, #2f5db1, #2f5db1);
+    background: linear-gradient(top, #2f5db1,  #2f5db1);
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    padding: 6px 20px;
+}
+.confirmar:hover{
+    opacity: .85;
+    cursor:pointer;
+}
+
+#number{
+    width: 30px;
+}
+#quartos{
+    height:25px;
+    background-color:white;
+}
+#pagamento{
+    height:25px;
+    background-color:white;
+}
+#confirmar{
+    margin-top: 20px;
+    margin-left: 30px;
+  
+}
+#resetar{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+/*LOGIN*/
+#login_pagina{
+    width:560px;
+	border:1px solid #ddd;
+	margin:10px auto;
+	background-color:#FFF;
+	padding:10px 30px;
+    border-radius:5px;  
+    background-image: url(../img/fundo.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+#entrar{
+    margin-top: 20px;
+    margin-left: 40px;
+  
+}
+#limpar{
+    margin-left: 240px;
+    margin-top: 20px;
+}
