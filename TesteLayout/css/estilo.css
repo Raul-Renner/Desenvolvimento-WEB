@@ -1,0 +1,144 @@
+/* .cardapio .blocoTiposComida{
+    padding: 0px;
+}
+.blocoTiposComida{
+    position: relative;
+    min-height: 1px;
+    padding: 0px 15px 0px 15px;
+}
+
+.cardapio .blocoITC{
+    min-height: auto;
+    border-right-width: initial;
+    border-left-style: none;
+    border-right-color: initial;
+}
+.cardapio .blocoITC ul{
+    text-align: center;
+    padding: 0px 20px 0px 20px;
+    list-style-type:none;
+}
+ul{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+.cardapio .blocoITC .ul .li.active{
+font-size: 20px;
+padding: 0px 20px 0px 20px;
+text-transform: uppercase;
+font-weight: normal;
+color: blue;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.cardapio .blocoITC ul li{
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 0px;
+    padding-left: 0;
+    display: inline;
+    padding: 5px 5px 5px 0px;
+
+}
+.cardapio .blocoITC ul li{
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding-left: 30px;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.blocoComidas{
+    padding: 0px;
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.bloco2TC{
+    border-left-width: initial;
+    border-left-style: none;
+    border-left-color: initial;
+    margin-left: 0px;
+    border-left: #975500 solid 1px;
+    margin-left: -1px;
+} */
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+}
+.slideshow{
+    width: 700px;
+    height: 400px;
+    overflow: hidden;
+}
+.middle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.navegacao{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: grid;
+    margin-bottom: 145px;
+    margin-left: 320px;
+
+}
+
+
+.bar{
+    width: 10px;
+    margin-bottom: 5px;
+    height: 10px;
+    border-radius: 40%;
+    border: 1px solid #fff;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.bar:hover{
+    background-color: #fff;
+}
+
+input[name="radio"]{
+position: absolute;
+visibility: hidden;
+
+}
+.slides{
+    width: 500%;
+    height: 100%;
+    display: flex;
+}
+.slide{
+    width: 20%;
+    transition:0.6s;
+}
+.slide img{
+    width: 100%;
+    height:100%;
+}
+#f1:checked ~ .s1{
+    margin-left: 0;
+
+}
+#f2:checked ~ .s1{
+    margin-left: -20%;
+    
+}
+#f3:checked ~ .s1{
+    margin-left: -40%;
+    
+}

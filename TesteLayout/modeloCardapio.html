@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="base/jquery-ui.min.js"></script>
+    <script src="base/jquery-ui.js"></script>
+    <script src="base/jquery-ui.css"></script>
+    <title>Document</title>
+</head>
+<style>
+    #tabs ul li{
+        list-style-type: none;
+        height:36px;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: inherit;
+        font-weight: bold;
+
+    
+    }
+    #tabs ul li a{
+        text-decoration: none;
+        color: rgb(22, 20, 20);
+
+
+    }
+    #tabs ul li a:hover{
+       background-color: blue;
+       font-size: 18px;
+       height: 100%;
+    }
+    
+    #tabs .img-cardapio{
+        width: 140px;
+        height: 140px;
+        border-radius: 100%;
+    }
+    section{
+        padding: 8px 8px 8px 15px;
+        border:1px solid black;
+        width: auto;
+        height: auto;
+    }
+    /* widget */
+    .ui-tabs-vertical{
+        width: 55em;
+    }
+    .ui-tabs-vertical .ui-tabs-nav{
+        padding: .2em .1em .2em .2em;
+        float: left;
+        width: 12em;
+
+    }
+    .ui-tabs-vertical .ui-tabs-nav li{
+        clear:left;
+        width: 100%;
+        border-bottom-width:1px !important;
+        border-right-width: 0 !important;
+        margin:0 -1px .2em 0; 
+    }
+    .ui-tabs-vertical .ui-tabs-nav li a{
+        display: block;
+    }
+    .ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active{
+        padding: 0px .1em 0px;
+        border-right-width: 1px;
+    }
+    .ui-tabs-vertical .ui-tabs-panel{
+        padding: .1em;
+        float: right;
+        width: 40em;
+    }
+    #teste{
+        background-color: brown;
+    }
+
+
+</style>
+<body>
+    <main>
+        <div id="tabs">
+            <ul>
+                <li id="teste"><a href="#peixe">Peixes</a></li>
+                <li><a href="#vegano">Vegano</a></li>
+                <li><a href="#carne">Carne</a></li>
+                <li><a href="#petisco">Petiscos</a></li>
+                <li><a href="#sobremesa">Sobremesa</a></li>
+                <li><a href="#salada">Salada</a></li>
+            </ul>
+        <div id="peixes">    
+            <div id="peixe">
+                <section>
+                    <img class="img-cardapio" src="img/cardapio/peixes/peixada-cearense.jpg" alt="Peixada Cearense">
+                    <p>sadsadsadsad</p>
+                </section>
+                <section>
+                        <img class="img-cardapio" src="img/cardapio/peixes/tilapia-menieure.jpeg" alt="Tilapia Menieure">
+                        <p>sadsadsadsad</p>
+                </section>
+                <section>
+                        <img class="img-cardapio" src="img/cardapio/peixes/tilapia-a-parmegiana.png" alt="Tilapia a Parmegiana">
+                        <p>sadsadsadsad</p>
+                </section>
+                <section>
+                        <img class="img-cardapio" src="img/cardapio/peixes/sirigado ao forno.png" alt="Sirigado ao forno">
+                        <p>sadsadsadsad</p>
+                </section>
+                <section>
+                        <img class="img-cardapio" src="img/cardapio/peixes/pizzaiolo.jpg" alt="Pizzaiolo">
+                        <p>sadsadsadsad</p>
+                    </section>
+        </div>
+            </div>
+        <div id="veganos">    
+            <div id="vegano">
+                <section>
+                    <img class="img-cardapio" src="img/cardapio/veganos/macarrão-integral-com-legumes.jpg" alt="Macarrão integral de Legumes">
+                    <p>sadsadsadsadas</p>
+                </section>
+                <section>
+                    <img class="img-cardapio" src="img/cardapio/veganos/penne-sem-gluten.jpg" alt="Penne sem Glúten">
+                    <p>sadsadsadsadas</p>
+                </section>
+                <section>
+                    <img class="img-cardapio" src="img/cardapio/veganos/ratatouille.jpeg" alt="Ratatouille">
+                    <p>sadsadsadsadas</p>
+                </section>
+                <section>
+                    <img class="img-cardapio" src="img/cardapio/veganos/robata-de-legumes.jpg" alt="Robata de Legumes">
+                    <p>sadsadsadsadas</p>
+                </section>
+                <section>
+                    <img class="img-cardapio" src="img/cardapio/veganos/Strogonoff de berinjela e palmito.jpg" alt="Strogonoff de Berinjela e Palmito">
+                    <p>sadsadsadsadas</p>
+                </section>
+            </div>
+        </div>    
+        
+        <div id="carnes">
+            <div id="carne">
+                <section>
+                    <img class="img-cardapio" src="img/cardapio/carnes/picanha-na-brasa.jpeg" alt="Picanha na picanha-na-brasa">
+                    <p>sadsadsadsad</p>
+                </section>
+                <section>
+                    <img class="img-cardapio" src="img/cardapio/carnes/file-paulista.jpg" alt="Filé Paulista">
+                    <p>sadsadsadsadas</p>
+                </section>
+                <section>
+                    <img class="img-cardapio" src="img/cardapio/carnes/file-mignon-a-parmegiana.jpg" alt="Filé á Parmegiana">
+                    <p>sadsadsadsadas</p>
+                </section>
+                <section>
+                    <img class="img-cardapio" src="img/cardapio/carnes/FILE-AO-MOLHO-MADEIRA.jpg" alt="Filé ao Molho Madeira">
+                    <p>sadsadsadsadas</p>
+                </section>
+                <section>
+                    <img class="img-cardapio" src="img/cardapio/carnes/carne-de-sol-do-sertao.png" alt="Carne de Sol do Sertão">
+                    <p>sadsadsadsadas</p>
+                </section>
+            </div>
+        </div>
+        
+        <div id="petiscos">
+            <div id="petisco">
+                <section>
+                    <img class="img-cardapio" src="img/cardapio/petiscos/crostini de camarao.png" alt="Corstini de Camarão">
+                    <p>sadsadsadsad</p>
+                </section>
+                <section>
+                    <img class="img-cardapio" src="img/cardapio/petiscos/Dadinho de Tapioca.jpg" alt="Dadinha de Tapioca">
+                    <p>sadsadsadsadas</p>
+                </section>
+                <section>
+                    <img class="img-cardapio" src="img/cardapio/petiscos/espetinho-queijo-coalho.jpg" alt="Espetinho de Queijo Coalho">
+                    <p>sadsadsadsadas</p>
+                </section>
+                <section>
+                    <img class="img-cardapio" src="img/cardapio/petiscos/file com fritas.jpg" alt="Filé com Fritas">
+                    <p>sadsadsadsadas</p>
+                </section>
+                <section>
+                    <img class="img-cardapio" src="img/cardapio/petiscos/Medalhão-de-File-Mignon.jpg" alt="Medalhãode Filé Mignon">
+                    <p>sadsadsadsadas</p>
+                </section>
+            </div>
+        </div>    
+            
+        <div id="sobremesas">    
+            <div id="sobremesa">
+                <section>
+                    <img class="img-cardapio" src="img/cardapio/sobremesas/churros-com-doce-argentino.jpeg" alt="Churros com doce de leite Argentino">
+                    <p>sadsadsadsad</p>
+                </section>
+                <section>
+                    <img class="img-cardapio" src="img/cardapio/sobremesas/cocada-com-sorvete.jpg" alt="Cocada com Sorvete">
+                    <p>sadsadsadsad</p>
+                </section>
+                <section>
+                    <img class="img-cardapio" src="img/cardapio/sobremesas/creme-de-papaya.jpg" alt="Creme de Papaya">
+                    <p>sadsadsadsad</p>
+                </section>
+                <section>
+                    <img class="img-cardapio" src="img/cardapio/sobremesas/torta-de-limao.jpg" alt="Torta de Limão">
+                    <p>sadsadsadsad</p>
+                </section>
+                <section>
+                    <img class="img-cardapio" src="img/cardapio/sobremesas/cheesecake.jpg" alt="Cheesecake">
+                    <p>sadsadsadsad</p>
+                </section>
+            </div>
+        </div>    
+        <div id="saladas">    
+            <div id="salada">
+                <section>
+                    <img class="img-cardapio" src="img/cardapio/saladas/salada-de-frutos-do-mar.jpg" alt="Salada de frutos do Mar">
+                    <p>sadsadsadsad</p>
+                </section>
+                <section>
+                    <img class="img-cardapio" src="img/cardapio/saladas/salada-italiana.jpg" alt="Salada Italiana">
+                    <p>sadsadsadsad</p>
+                </section>
+                <section>
+                    <img class="img-cardapio" src="img/cardapio/saladas/salada-oriental.jpg" alt="Salada Oriental">
+                    <p>sadsadsadsad</p>
+                </section>
+                <section>
+                    <img class="img-cardapio" src="img/cardapio/saladas/salada-sertao.jpg" alt="Salada do Sertão">
+                    <p>sadsadsadsad</p>
+                </section>
+                <section>
+                    <img class="img-cardapio" src="img/cardapio/saladas/salada-verão.jpg" alt="Salada Verão">
+                    <p>sadsadsadsad</p>
+                </section>
+            </div>
+        </div>
+    </main>
+    <script>
+        $(function(){
+            $("#tabs").tabs().addClass("ui-tabs-vertical ui-helper-clearfix");
+            $("#tabs li").removeClass("ui-corner-top").addClass("ui-corner-left");
+        });
+    </script>
+</body>
+</html>
