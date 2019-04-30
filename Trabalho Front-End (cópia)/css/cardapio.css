@@ -1,0 +1,104 @@
+
+#tabs{
+    margin: 40px 0px 50px 0px;
+}
+#tabs ul li{
+    list-style-type: none;
+    height:36px;
+    width: 250px;
+    font-size: 20px;
+    font-family: fantasy;
+    font-style: inherit;
+    font-weight: bold;
+    margin-left: 30px;
+    
+
+}
+#tabs ul li a{
+    text-decoration: none;
+    color:#ccc;   
+
+}
+#tabs ul li a:hover{
+   background-color:dimgrey;
+   font-size: 24px;
+   height: 100%;
+}
+
+#tabs .img-cardapio{
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    
+}
+.img-cardapio{
+    float: left;
+    margin-right: 15px; 
+}
+.cardapio-section{
+    padding: 8px 8px 8px 8px;
+    border:transparent;
+    width: auto;
+    min-width: 700px;
+    height: auto;
+    overflow: hidden;
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-bottom: 40px;
+    
+}
+.cardapio-section p{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+.descricao-Prato{
+    margin-top: 0;  
+}
+hr{
+    margin-top: 2px;
+    margin-bottom: 8px;
+    color: gold;
+}
+h3{
+    color: aliceblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.preco{
+    width: 40px;
+    float: right;
+    margin-right: 80px;
+    margin-top: 40px;
+    color: gold;
+}
+/* widget */
+.ui-tabs-vertical{
+    width: 55em;
+}
+.ui-tabs-vertical .ui-tabs-nav{
+    padding: .2em .1em .2em .2em;
+    float: left;
+    width: 12em;
+
+}
+.ui-tabs-vertical .ui-tabs-nav li{
+    clear:left;
+    width: 100%;
+    border-bottom-width:1px !important;
+    border-right-width: 0 !important;
+    margin:0 -1px .2em 0; 
+}
+.ui-tabs-vertical .ui-tabs-nav li a{
+    display: block;
+}
+.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active{
+    padding: 0px .1em 0px;
+    border-right-width: 1px;
+}
+.ui-tabs-vertical .ui-tabs-panel{
+    padding: .1em;
+    float: right;
+    width: 40em;
+}

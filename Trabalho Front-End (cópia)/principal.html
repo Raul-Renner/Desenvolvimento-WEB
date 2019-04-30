@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="img/logoPrincipal">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/jquery-ui.css"></script>
+    <link rel="stylesheet" href="css/ionicons.css">
+    <link rel="stylesheet" href="css/slide.css">
+    <link rel="stylesheet" href="css/cardapio.css">
+   <link rel="stylesheet" href="css/principal.css">
+   <link rel="stylesheet" href="css/rodape.css">			
+    
+
+    <title>Restaurante</title>
+<style>
+    header{
+    background-image: linear-gradient(rgba(20,20,20,0.5),rgba(30,20,20,0.5)),url(img/res3.jpg);
+    background-position: center;
+    background-repeat:no-repeat; 
+    height: 400px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin: 0px 5px 0px 5px;
+
+}
+</style>
+
+</head>
+<body>
+    <main>
+        <header>
+            <nav class="menu">
+                <ul class="menu-option">
+                    <li><a href="#">Home </a></li>
+                    <li><a href="QuemSomos.html">Quem Somos</a></li>
+                    <li><a href="pratos.html">Pratos</a></li>
+                    <li><a href="formulario-cadastro.html">Cadastre-se</a></li>
+                    
+                </ul>
+            </nav>
+        </header> 
+        <section class="apresentacao-restaurante">
+            <h2>Conheça nosso cardápio do dia!</h2>
+        </section>
+        
+        <section id="slide-cardapio">
+                <div class="slideshow middle">
+                        <div class="slides">
+                            <input type="radio" name="radio" id="f1" checked>
+                            <input type="radio" name="radio" id="f2">
+                            <input type="radio" name="radio" id="f3">
+                            
+                            <div class="slide  s1">
+                                <img src="img/slide/comida1.png" alt=""class="foto">
+                            </div>
+                            <div class="slide">
+                                    <img src="img/slide/comida2.jpg" alt=""class="foto">
+                            </div>
+                            <div class="slide">
+                                    <img src="img/slide/comida3.jpg" alt="" class="foto">
+                            </div>
+                        </div>
+                        <div class="navegacao">
+                                <label for="f1" class="bar"></label>
+                                <label for="f2" class="bar"></label>
+                                <label for="f3" class="bar"></label>
+                                
+                        </div>
+                    </div>
+        </section>
+        <div id="tabs">
+            <ul>
+                <li><a href="#peixe">Peixes</a></li>
+                <li><a href="#vegano">Vegano</a></li>
+                <li><a href="#carne">Carne</a></li>
+                <li><a href="#petisco">Petiscos</a></li>
+                <li><a href="#sobremesa">Sobremesa</a></li>
+                <li><a href="#salada">Salada</a></li>
+                
+            </ul>
+            
+        <div id="peixes">    
+            <div id="peixe">
+                <section class="cardapio-section">
+                    <img class="img-cardapio" src="img/cardapio/peixes/peixada-cearense.jpg" alt="Peixada Cearense">
+                    <h3>Peixada Cearense</h3>
+                    <hr>
+                    <p class="descricao-Prato">
+                            Filé de peixe, tomate, cebola, pimentões, leite de coco, batatas, cenouras, repolho e ovos cozidos. 
+                            Acompanha pirão e arroz branco.
+                    </p>
+                    <aside class="preco">
+                        <h1>30,00 R$</h1>
+                    </aside> 
+                </section>
+                <section class="cardapio-section">
+                        <img class="img-cardapio" src="img/cardapio/peixes/tilapia-menieure.jpeg" alt="Tilapia Menieure">
+                        <h3>Tilápia Menieure</h3>
+                        <hr>
+                        <p class="descricao-Prato">
+                                400g de filet de tilápia grelhado com molho especial de alcaparras, champignon e arroz com brócolis e legumes.
+                        </p>
+                        <aside class="preco">
+                            <h1>35,00 R$</h1>
+                        </aside>
+                </section>
+                <section  class="cardapio-section">
+                        <img class="img-cardapio" src="img/cardapio/peixes/tilapia-a-parmegiana.png" alt="Tilapia a Parmegiana">
+                        <h3>Tilápia a Parmegiana</h3>
+                        <hr>
+                        <p class="descricao-Prato">
+                                Filé de Tilápia empanado com molho de tomates frescos sobre espaguete. Gratinado com queijo muçarela.
+                        </p>
+                        <aside class="preco">
+                            <h1>35,00 R$</h1>
+                        </aside>
+                </section>
+                <section class="cardapio-section">
+                        <img class="img-cardapio" src="img/cardapio/peixes/sirigado ao forno.png" alt="Sirigado ao forno">
+                        <h3>Sirigado ao forno</h3>
+                        <hr>
+                        <p class="descricao-Prato">
+                                Filé de sirigado assado no forno, servido com variedade de verduras, legumes e cheiro verde.
+                                Acompanha arroz branco e farofa de banana.
+                        </p>
+                        <aside class="preco">
+                            <h1>40,00 R$$</h1>
+                        </aside>
+                </section>
+                <section class="cardapio-section">
+                        <img class="img-cardapio" src="img/cardapio/peixes/pizzaiolo.jpg" alt="Peixe Pizzaiolo">
+                        <h3>Peixe Pizzaiolo</h3>
+                        <hr>
+                        <p class="descricao-Prato">
+                                Filé de peixe em cubos, à dorê. Servidos sobre espaguete ao alho e óleo. 
+                                Coberto com molho de tomate e molho branco, numa perfeita combinação. Gratinados com queijo muçarela e orégano.
+                        </p>
+                        <aside class="preco">
+                            <h1>42,00 R$</h1>
+                        </aside>
+                    </section>
+        </div>
+            </div>
+        <div id="veganos">    
+            <div id="vegano">
+                <section class="cardapio-section">
+                    <img class="img-cardapio" src="img/cardapio/veganos/macarrão-integral-com-legumes.jpg" alt="Macarrão integral de Legumes">
+                    <h3>Macarrão integral de Legumes</h3>
+                    <hr>
+                    <p class="descricao-Prato">    
+                        Um delicioso prato vegano com macarrão integral,acompanhada de legumes como brocolis,cenoura,folhas de manjericão 
+                        com pitadas de pimenta do reino e um pouco de azeite.
+                    </p>
+                    <aside class="preco">
+                        <h1>20,00 R$</h1>
+                    </aside>
+                </section>
+                <section class="cardapio-section">
+                    <img class="img-cardapio" src="img/cardapio/veganos/penne-sem-gluten.jpg" alt="Penne sem Glúten">
+                    <h3>Penne sem Glúten</h3>
+                    <hr>
+                    <p class="descricao-Prato">
+                            VEGANO, BAIXO TEOR DE GLÚTEN, SEM LACTOSE Penne sem glúten com shitake, shimeji, legumes, shoyu e molho teriaki.
+                    </p>
+                    <aside class="preco">
+                        <h1>25,00 R$</h1>
+                    </aside>
+                </section>
+                <section class="cardapio-section">
+                    <img class="img-cardapio" src="img/cardapio/veganos/ratatouille.jpeg" alt="Ratatouille">
+                    <h3>Ratatouille</h3>
+                    <hr>
+                    <p class="descricao-Prato">
+                            VEGANO, BAIXO TEOR DE GLÚTEN, SEM LACTOSE Deliciosa receita com tomate, berinjela, cebola roxa e abobrinha. 
+                            Preparada ao forno com ervas e alho confitado.
+                    </p>
+                    <aside class="preco">
+                        <h1>30,00 R$</h1>
+                    </aside>
+                </section>
+                <section class="cardapio-section">
+                    <img class="img-cardapio" src="img/cardapio/veganos/robata-de-legumes.jpg" alt="Robata de Legumes">
+                    <h3>Robata de Legumes</h3>
+                    <hr>
+                    <p class="descricao-Prato">
+                            Um prato vegano muito suculenta acompanhada de legumes como abobrinha,
+                                berinjela,tomates-cereja,couve-flor, cebola pérola e também adicionadas a esse prato abacaxi e canela.
+                    </p>
+                    <aside class="preco">
+                        <h1>30,00 R$</h1>
+                    </aside>
+                </section>
+                <section class="cardapio-section">
+                    <img class="img-cardapio" src="img/cardapio/veganos/Strogonoff de berinjela e palmito.jpg" alt="Strogonoff de Berinjela e Palmito">
+                    <h3>Strogonoff de Berinjela e Palmito</h3>
+                    <hr>
+                    <p class="descricao-Prato">
+                            Essa delicia é acompanhada de palmito, berinjela,tomates, cebola
+                            e uns adicionais como leite de amendoim,katchup e mostarda em pó.
+                    </p>
+                    <aside class="preco">
+                        <h1>24,00 R$</h1>
+                    </aside>
+                </section>
+            </div>
+        </div>    
+        
+        <div id="carnes">
+            <div id="carne">
+                <section class="cardapio-section">
+                    <img class="img-cardapio" src="img/cardapio/carnes/picanha-na-brasa.jpeg" alt="Picanha na picanha-na-brasa">
+                    <h3>Picanha na Brasa</h3>
+                    <hr>
+                    <p class="descricao-Prato">
+                            Picanha com cebola roxa refogada na manteiga da terra, alho inteiro e pimenta biquinho.
+                    </p>
+                    <aside class="preco">
+                        <h1>45,00 R$</h1>
+                    </aside>
+                </section>
+                <section class="cardapio-section">
+                    <img class="img-cardapio" src="img/cardapio/carnes/file-paulista.jpg" alt="Filé Paulista">
+                    <h3>Filé Paulista</h3>
+                    <hr>
+                    <p class="descricao-Prato">
+                            500g de filé mignon cobertos com alhos dourados.
+                            Acompanha deliciosa mistura de arroz branco, batata palha, ovos, bacon, cebola picada, salsinha, cheiro verde e farofa.
+                    </p>
+                    <aside class="preco">
+                        <h1>35,00 R$</h1>
+                    </aside>
+                </section>
+                <section class="cardapio-section">
+                    <img class="img-cardapio" src="img/cardapio/carnes/file-mignon-a-parmegiana.jpg" alt="Filé á Parmegiana">
+                    <h3>Filé á Parmegiana</h3>
+                    <hr>
+                    <p class="descricao-Prato">
+                            400g de filé mignon à milanesa, gratinados com queijo muçarela e molho de tomate. Servido com espaguete no próprio molho.
+                    </p>
+                    <aside class="preco">
+                        <h1>40,00 R$</h1>
+                    </aside>
+                </section>
+                <section class="cardapio-section">
+                    <img class="img-cardapio" src="img/cardapio/carnes/FILE-AO-MOLHO-MADEIRA.jpg" alt="Filé ao Molho Madeira">
+                    <h3>Filé ao Molho de Madeira</h3>
+                    <hr>
+                    <p class="descricao-Prato">
+                            05 medalhões de filé envolvidos 
+                            com bacon, grelhados, flambados com conhaque, molho madeira tradicional e champignons. Acompanha arroz branco e batata recheada.
+                    </p>
+                    <aside class="preco">
+                        <h1>21,00 R$</h1>
+                    </aside>
+                </section>
+                <section class="cardapio-section">
+                    <img class="img-cardapio" src="img/cardapio/carnes/carne-de-sol-do-sertao.png" alt="Carne de Sol do Sertão">
+                    <h3>Carne de Sol do Sertão</h3>
+                    <hr>
+                    <p class="descricao-Prato">
+                            Arroz de leite coberto com carne de sol desfiada e refogada na manteiga da terra com cebola roxa, nata e coentro. 
+                            Gratinada com queijo coalho. Acompanha macaxeira frita.
+                    </p>
+                    <aside class="preco">
+                        <h1>45,00 R$</h1>
+                    </aside>
+                </section>
+            </div>
+        </div>
+        
+        <div id="petiscos">
+            <div id="petisco">
+                <section class="cardapio-section">
+                    <img class="img-cardapio" src="img/cardapio/petiscos/crostini de camarao.png" alt="Coristini de Camarão">
+                    <h3>Coristini de Camarão</h3>
+                    <hr>
+                    <p class="descricao-Prato">
+                            06 torradas cobertas com cream cheese, camarões e tapenade de azeitona e alcaparras.
+                    </p>
+                    <aside class="preco">
+                        <h1>50,00 R$</h1>
+                    </aside>
+                </section>
+                <section class="cardapio-section">
+                    <img class="img-cardapio" src="img/cardapio/petiscos/Dadinho de Tapioca.jpg" alt="Dadinho de Tapioca">
+                    <h3>Dadinho de Tapioca</h3>
+                    <hr>
+                    <p class="descricao-Prato">
+                            Essa delicia é preparada com tapioca granulada com queijo coalho, leite e pimenta-branca.
+                    </p>
+                    <aside class="preco">
+                        <h1>35,00 R$</h1>
+                    </aside>
+                </section>
+                <section class="cardapio-section">
+                    <img class="img-cardapio" src="img/cardapio/petiscos/espetinho-queijo-coalho.jpg" alt="Espetinho de Queijo Coalho">
+                    <h3>Espetinho de Queijo Coalho</h3>
+                    <hr>
+                    <p class="descricao-Prato">
+
+                    </p>
+                    <aside class="preco">
+                        <h1>15,00 R$</h1>
+                    </aside>
+                </section>
+                <section class="cardapio-section">
+                    <img class="img-cardapio" src="img/cardapio/petiscos/file com fritas.jpg" alt="Filé com Fritas">
+                    <h3>Filé com Fritas</h3>
+                    <hr>
+                    <p class="descricao-Prato">
+                        filé picados com cebolas,pimenta e batata inglesa fritas.
+                    </p>
+                    <aside class="preco">
+                        <h1>20,00 R$</h1>
+                    </aside>
+                </section>
+                <section class="cardapio-section">
+                    <img class="img-cardapio" src="img/cardapio/petiscos/Medalhão-de-File-Mignon.jpg" alt="Medalhão de Filé Mignon">
+                    <h3>Medalhão de Filé Mignon</h3>
+                    <hr>
+                    <p class="descricao-Prato">
+                        04 tornedos de filé mignon,acompanhada de pimenta do reino,salsa picada e tiras de bacon.
+                    </p>
+                    <aside class="preco">
+                        <h1>20,00 R$</h1>
+                    </aside>
+                </section>
+            </div>
+        </div>    
+            
+        <div id="sobremesas">    
+            <div id="sobremesa">
+                <section class="cardapio-section">
+                    <img class="img-cardapio" src="img/cardapio/sobremesas/churros-com-doce-argentino.jpeg" alt="Churros com doce de leite Argentino">
+                    <h3>Churros com doce de leite Argentino</h3>
+                    <hr>
+                    <p class="descricao-Prato">
+
+                    </p>
+                    <aside class="preco">
+                        <h1>12,00 R$</h1>
+                    </aside>
+                </section>
+                <section class="cardapio-section">
+                    <img class="img-cardapio" src="img/cardapio/sobremesas/cocada-com-sorvete.jpg" alt="Cocada com Sorvete">
+                    <h3>Cocada com Sorvete</h3>
+                    <hr>
+                    <p class="descricao-Prato">
+                            Elaborada com coco ralado fresco e leite condensado. Dourada ao forno, servida quente e uma bola de sorvete.
+                    </p>
+                    <aside class="preco">
+                        <h1>17,00 R$</h1>
+                    </aside>
+                </section>
+                <section class="cardapio-section">
+                    <img class="img-cardapio" src="img/cardapio/sobremesas/creme-de-papaya.jpg" alt="Creme de Papaya">
+                    <h3>Creme de Papaya</h3>
+                    <hr>
+                    <p class="descricao-Prato">
+                            Mamão papaya batido com sorvete de creme. Servido com licor de cassis.
+
+                    </p>
+                    <aside class="preco">
+                        <h1>16,00 R$</h1>
+                    </aside>
+                </section>
+                <section class="cardapio-section">
+                    <img class="img-cardapio" src="img/cardapio/sobremesas/torta-de-limao.jpg" alt="Torta de Limão">
+                    <h3>Torta de Limão</h3>
+                    <hr>
+                    <p class="descricao-Prato"> 
+                            Massa de biscoito com creme de limão e leite condensado. Acompanha calda de chocolate.
+                    </p>
+                    <aside class="preco">
+                        <h1>21,00 R$</h1>
+                    </aside>
+                </section>
+                <section class="cardapio-section">
+                    <img class="img-cardapio" src="img/cardapio/sobremesas/cheesecake.jpg" alt="Cheesecake">
+                    <h3>Cheesecake</h3>
+                    <hr>
+                    <p class="descricao-Prato">
+                            Massa de chocolate,cream cheese e geléia de morangos frescos.
+                    </p>
+                    <aside class="preco">
+                        <h1>26,00 R$</h1>
+                    </aside>
+                </section>
+            </div>
+        </div>    
+        <div id="saladas">    
+            <div id="salada">
+                <section class="cardapio-section">
+                    <img class="img-cardapio" src="img/cardapio/saladas/salada-de-frutos-do-mar.jpg" alt="Salada de frutos do Mar">
+                    <h3>Salada de frutos do Mar</h3>
+                    <hr>
+                    <p class="descricao-Prato">
+                        Lula, camarões, mexilhões, mix de pimentões, cebolas em cubo e molho de vinagrete especial 
+                        , servidos sobre folhas verdes.
+
+    
+                    </p>
+                    <aside class="preco">
+                        <h1>12,00 R$</h1>
+                    </aside>
+                </section>
+                <section class="cardapio-section">
+                    <img class="img-cardapio" src="img/cardapio/saladas/salada-italiana.jpg" alt="Salada Italiana">
+                    <h3>Salada Italiana</h3>
+                    <hr>
+                    <p class="descricao-Prato">
+                        Alface americana, alface crespa, rúcula, queijo minas frescal, tomate seco, azeitonas pretas e croutons.
+                        Temperada com ervas e molho vinagrete balsâmico.
+                    </p>
+                    <aside class="preco">
+                        <h1>21,00 R$</h1>
+                    </aside>
+                </section>
+                <section class="cardapio-section">
+                    <img class="img-cardapio" src="img/cardapio/saladas/salada-oriental.jpg" alt="Salada Oriental">
+                    <h3>Salada Oriental</h3>
+                    <hr>
+                    <p class="descricao-Prato">
+                        Mix de folhas verdes, palmito, tomates cereja, camarões e cogumelos shitake com molho vinagrete especial.
+                    </p>
+                    <aside class="preco">
+                        <h1>23,00 R$</h1>
+                    </aside>
+                </section>
+                <section class="cardapio-section">
+                    <img class="img-cardapio" src="img/cardapio/saladas/salada-sertao.jpg" alt="Salada do Sertão">
+                    <h3>Salada do Sertão</h3>
+                    <hr>
+                    <p class="descricao-Prato">
+                        Alface americana, queijo coalho, tomate, azeitona, palmito, pimentão cebola e molho vinagrete especial. 
+
+                    </p>
+                    <aside class="preco">
+                        <h1>25,00 R$</h1>
+                    </aside>
+                </section>
+                <section class="cardapio-section">
+                    <img class="img-cardapio" src="img/cardapio/saladas/salada-verão.jpg" alt="Salada Verão">
+                    <h3>Salada Verão</h3>
+                    <hr>
+                    <p class="descricao-Prato">
+                        Folhas mistas, kani kama, manga, tomate seco, cenoura e molho de mostarda.
+                    </p>
+                    <aside class="preco">
+                        <h1>18,00 R$</h1>
+                    </aside>
+                </section>
+            </div>
+        </div>
+    </div>    
+        <footer>
+            <section class="dados-rodape">
+                <ul class="fundacao">
+                   <li class="title">Fundação:</li><br>
+                   <li class="conteudo-rodape">Data: 24/08/2010</li><br>
+                   <li class="conteudo-rodape">Fundador: Cosmo e Damião</li><br>
+                   <li class="conteudo-rodape">Proprietário: Erick Jacquin</li>                   
+
+                </ul>
+                <ul class="contato">
+                    <li class="title">Contato:</li><br>
+                    <li class="conteudo-rodape">Telefone: (85) 99120-2589</li><br>
+                    <li class="conteudo-rodape">Email: restaurenteMonolitos@gmail.com</li>
+                 </ul>
+                 <ul class="parcerias">
+                    <li class="title">Parcerias:</li><br>
+                    <li class="conteudo-rodape">Coca Cola</li><br>
+                    <li class="conteudo-rodape">Restaurante Le France</li><br>
+                    <li class="conteudo-rodape">Restaurante Lá itália</li>
+                    
+                 </ul>
+                 <ul class="estabelecimentos">
+                    <li class="title">Estabelecimentos:</li><br>
+                    <li class="conteudo-rodape">Fortaleza</li><br>
+                    <li class="conteudo-rodape">Horizonte</li><br>
+                    <li class="conteudo-rodape">Quixadá</li>
+                    
+                 </ul>
+                 
+            </section>       
+               <p><small>&copy; Copyright 2019 - 
+                <a href="https://www.facebook.com/" title="Facebook" class ="tooltip" rel="tooltip" type="facebook">
+                    <img src="img/rodape/face.png" alt="">
+                </a>
+                <a href="https://www.instagram.com/?hl=pt-br
+                " title="Instagram" rel="tooltip" class ="tooltip" type="instagram">
+                    <img src="img/rodape/insta.png" alt="">
+                </a> 
+                <a href="https://www.youtube.com/?gl=BR&hl=pt
+                " title="Youtube" rel="tooltip" class ="tooltip" type="youtube">
+                    <img src="img/rodape/yt.png" alt="">
+                </a> 
+
+                </small></p>
+                <p id="criador"><b>Criador: </b>Raul Renner de Paulo Alves</p>
+
+        </footer>
+    </main>
+    <script>
+        $(function(){
+            $("#tabs").tabs().addClass("ui-tabs-vertical ui-helper-clearfix");
+            $("#tabs li").removeClass("ui-corner-top").addClass("ui-corner-left");
+        });
+    </script>
+</body>
+</html>

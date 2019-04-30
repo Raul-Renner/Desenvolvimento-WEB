@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="img/logoPrincipal">
+    <link rel="stylesheet" href="css/cadastro.css">
+    <title>Cadastro</title>
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.maskedinput.js"> </script>
+</head>
+<script type="text/javascript">
+    
+ 
+$(document).ready(function(){
+        $("input.cpf").mask("999.999.999-99");
+        $("input.fone").mask("(99) 9999-9999");
+});
+
+
+</script>
+<body>
+        <header>
+                <nav class="menu">
+                    <ul class="menu-option">
+                        <li><a href="principal.html">Home</a></li>
+                        <li><a href="QuemSomos.html">Quem Somos</a></li>
+                        <li><a href="pratos.html">Pratos</a></li>
+                        
+                    </ul>
+                </nav>
+        </header>
+<main>    
+
+<div class="form">         
+    <form class="form-cadastro">    
+        <div id="titulo"><h2>Cadastre-se</h2></div>
+        <hr>
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome" /><br>
+        <label for="sobrenome">Sobrenome:</label><br>
+        <input type="text" id="sobrenome"><br>
+        <label for="em">Email:</label><br>
+        <input  type="email" id="email" name="email"><br>
+        <label for="cpf">CPF:</label><br>
+        <input type="text" class="cpf" id="cpf" name="cpf" /><br>
+        <label for="cep">Telefone:</label><br>
+        <input type="text" class="fone" id="fone" name="telefone" /><br>
+        <label for="mensagem">Mensagem:</label><br>
+        <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea><br>
+        <input type="submit" id="botao" value="Cadastrar">
+    </form>
+</div>
+</main>
+
+    <footer>
+        <section class="dados-rodape">
+            <ul class="fundacao">
+               <li class="title">Fundação:</li><br>
+               <li class="conteudo-rodape">Data: 24/08/2010</li><br>
+               <li class="conteudo-rodape">Fundador: Cosmo e Damião</li><br>
+               <li class="conteudo-rodape">Proprietário: Erick Jacquin</li>                   
+
+            </ul>
+            <ul class="contato">
+                <li class="title">Contato:</li><br>
+                <li class="conteudo-rodape">Telefone: (85) 99120-2589</li><br>
+                <li class="conteudo-rodape">Email: restaurenteMonolitos@gmail.com</li>
+             </ul>
+             <ul class="parcerias">
+                <li class="title">Parcerias:</li><br>
+                <li class="conteudo-rodape">Coca Cola</li><br>
+                <li class="conteudo-rodape">Restaurante Le France</li><br>
+                <li class="conteudo-rodape">Restaurante Lá itália</li>
+                
+             </ul>
+             <ul class="estabelecimentos">
+                <li class="title">Estabelecimentos:</li><br>
+                <li class="conteudo-rodape">Fortaleza</li><br>
+                <li class="conteudo-rodape">Horizonte</li><br>
+                <li class="conteudo-rodape">Quixadá</li>
+                
+             </ul>
+             
+        </section>       
+           <p><small>&copy; Copyright 2019 - 
+            <a href="https://www.facebook.com/" title="Facebook" class ="tooltip" rel="tooltip" type="facebook">
+                <img src="img/rodape/face.png" alt="">
+            </a>
+            <a href="https://www.instagram.com/?hl=pt-br
+            " title="Instagram" rel="tooltip" class ="tooltip" type="instagram">
+                <img src="img/rodape/insta.png" alt="">
+            </a> 
+            <a href="https://www.youtube.com/?gl=BR&hl=pt
+            " title="Youtube" rel="tooltip" class ="tooltip" type="youtube">
+                <img src="img/rodape/yt.png" alt="">
+            </a> 
+
+            </small></p>
+            <p id="criador"><b>Criador: </b>Raul Renner de Paulo Alves</p>
+
+    </footer>
+</body>
+</html>

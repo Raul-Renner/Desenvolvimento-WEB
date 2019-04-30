@@ -1,0 +1,296 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+main{
+    width:100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    box-shadow: 0 0 10px #666;
+    margin:0px;
+    height: auto;
+    border: 0px;
+    background-color: black;
+}
+/* menu */
+header{
+    background-position: center;
+    height: 100px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin: 0px 5px 0px 5px;
+
+}
+
+header h4{
+font-size: 1.3em;
+color: aliceblue;
+}
+.menu{
+    width: 100%;
+    background-color: rgba(255,255,255,0.2);
+    position: fixed;
+    height:40px;
+}
+.menu-option{
+float: right;
+margin-right: 40px;
+margin-top: 10px;
+}
+.menu-option li{
+display: inline-block;
+margin-left: 30px;
+position: relative;
+
+}
+.menu-option li a{
+text-decoration: none;
+}
+.menu-option li a:link,.menu-option li a:visited{
+    color:#fff;
+    padding: 8px 0;
+    text-transform: uppercase; 
+    font-family: fantasy; 
+}
+.menu-option li a:hover, .menu-option li:active{
+    color: #ccc;
+    border-bottom: 2px solid gold;
+}
+h2{
+    margin-top: 50px;
+    color: #ccc;
+    margin-bottom: 30px;
+    font-size: 160%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    text-transform: uppercase;  
+}
+h2::after{
+    display: block;
+    height: 2px;
+    content: " ";
+    background:gold;
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 10px;
+
+}
+/* widgets */
+
+#tabs-cardapio-pratos{
+    margin: 0px 0px 0px 0px;
+}
+#tabs-cardapio-pratos .pratos-cardapio{
+    background-color:rgba(204, 204, 204, 0.693);
+    text-align: center;
+    text-align-last: center;
+    margin-bottom: 20px;
+}
+
+#tabs-cardapio-pratos .pratos-cardapio li{
+    list-style-type: none;
+    height:36px;
+    width: 100px;
+    font-size: 20px;
+    font-family: fantasy;
+    font-style: inherit;
+    font-weight: bold;
+    margin-left: 30px;
+    opacity: inherit;
+    display: inline-block;
+    
+
+}
+#tabs-cardapio-pratos .pratos-cardapio li a{
+    text-decoration: none;
+    color:white;   
+    
+
+}
+#tabs-cardapio-pratos .pratos-cardapio li:hover{
+   background-color:gold;
+   /* font-size: 24px; */
+   height: 36px;
+
+}
+
+#tabs-cardapio-pratos .img-cardapio{
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    
+}
+.img-cardapio{
+    float: left;
+    margin-right: 15px; 
+}
+.bloco-cardapio{
+    padding: 8px 8px 8px 8px;
+    border:transparent;
+    width: 800px;
+    height: auto;
+    overflow: hidden;
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 40px;
+    margin-left: 250px; 
+}
+section p{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+.descricao-Prato{
+    margin-top: 0;  
+}
+hr{
+    margin-top: 2px;
+    margin-bottom: 8px;
+}
+h3{
+    color: aliceblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.preco{
+    width: 100px;
+    float: right;
+    margin-right: 80px;
+    margin-top: 40px;
+    color: gold;
+}
+.apresentacao-restaurante{
+    width: auto;
+    
+}
+#bloco-cardapio-ver-mais{
+    display: none;
+}
+
+/*botao ver mais*/
+.verMais{
+        text-align: center;
+        margin-top: 20px;
+        width: 60px;
+        color: white;
+        height:20px;
+        padding: 10px;
+        align-self: center;
+        border-radius: 10%;
+        display: inline-block;  
+        cursor: pointer;
+        background-color:rgb(0, 138, 230);
+        text-decoration: none;
+}
+/* widget
+.ui-tabs-vertical{
+    width: 55em;
+}
+.ui-tabs-vertical .ui-tabs-nav{
+    padding: .2em .1em .2em .2em;
+    float: left;
+    width: 12em;
+
+}
+.ui-tabs-vertical .ui-tabs-nav li{
+    clear:left;
+    width: 100%;
+    border-bottom-width:1px !important;
+    border-right-width: 0 !important;
+    margin:0 -1px .2em 0; 
+}
+.ui-tabs-vertical .ui-tabs-nav li a{
+    display: block;
+}
+.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active{
+    padding: 0px .1em 0px;
+    border-right-width: 1px;
+}
+.ui-tabs-vertical .ui-tabs-panel{
+    padding: .1em;
+    float: right;
+    width: 40em;
+} */
+/*RODAPÉ */
+footer{
+    clear: both;
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 200px;
+    font-size: 0.95em;
+    padding: 5px;
+    text-align: center;
+    height:250px;
+    background-color: black;
+    margin: 36px 5px 0px 5px;
+    
+}
+#criador{
+    margin: 8px;
+}
+footer p{
+    margin-top: 150px;
+}
+.tooltip{
+    -moz-border-radius: 9px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.dados-rodape{
+    margin: 0;
+    display: inline;
+}
+.dados-rodape ul li{
+    margin:0;
+    display: inline;
+    text-decoration: none;
+    
+}
+.dados-rodape .title li{
+    margin: 0px;
+    display: inline;
+}
+.title{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color:goldenrod;
+    display: inline;
+    text-align: center;
+}
+footer .dados-rodape .fundacao{
+    float: left;
+    margin-left: 20px;
+}
+footer .dados-rodape .parcerias{
+    margin-top: 0px;
+    float: right;
+    margin-right: 210px;
+}
+footer .dados-rodape .estabelecimentos{
+    float: left;
+    margin-left: 210px;
+    background-color: black;
+}
+.contato{
+    width: 240px;
+    float: right;
+    margin-right: 20px;
+}
+footer .fundacao ul{
+    text-align: left;
+}
+.conteudo-rodape{
+    margin: 0 auto; 
+    text-orientation: inherit;
+    text-align: left;
+    overflow: hidden;
+
+}

@@ -1,0 +1,199 @@
+/*cadastro*/
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    background-color: black;
+}
+    
+main{
+    width:420px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    box-shadow: 0 0 10px #666;
+    margin:-1px auto 10px;
+    height: auto;
+}
+header{
+    background-position: center;
+    background-repeat:no-repeat; 
+    height: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin: 0px 5px 0px 5px;;
+
+}
+header h4{
+font-size: 1.3em;
+color: aliceblue;
+
+}
+.menu{
+    position: relative;
+    width: 100%;
+    background-color: rgba(255,255,255,0.2);
+    
+    height:40px;
+    
+}
+.menu-option{
+float: right;
+margin-right: 40px;
+margin-top: 10px;
+}
+.menu-option li{
+display: inline-block;
+margin-left: 30px;
+position: relative;
+
+}
+.menu-option li a{
+text-decoration: none;
+}
+.menu-option li a:link,.menu-option li a:visited{
+    color:#fff;
+    padding: 8px 0;
+    text-transform: uppercase; 
+    font-family: fantasy; 
+}
+.menu-option li a:hover, .menu-option li:active{
+    color: #ccc;
+    border-bottom: 2px solid gold;
+}
+
+
+/*RODAPE*/
+
+footer{
+    clear: both;
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 200px;
+    font-size: 0.95em;
+    padding: 5px;
+    text-align: center;
+    height:250px;
+    margin: 36px 5px 0px 5px;
+    
+}
+#criador{
+    margin: 8px;
+}
+footer p{
+    margin-top: 150px;
+}
+.tooltip{
+    -moz-border-radius: 9px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.dados-rodape{
+    margin: 0;
+    display: inline;
+}
+.dados-rodape ul li{
+    margin:0;
+    display: inline;
+    text-decoration: none;
+    
+}
+.dados-rodape .title li{
+    margin: 0px;
+    display: inline;
+}
+.title{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color:goldenrod;
+    display: inline;
+    text-align: center;
+}
+.fundacao{
+    float: left;
+    margin-left: 20px;
+}
+.parcerias{
+    margin-top: 0px;
+    float: right;
+    margin-right: 210px;
+}
+.estabelecimentos{
+    float: left;
+    margin-left: 210px;
+}
+.contato{
+    width: 240px;
+    float: right;
+    margin-right: 20px;
+}
+.dados-rodape ul{
+    text-align: left;
+}
+.conteudo-rodape{
+    margin: 0 auto; 
+    text-orientation: inherit;
+    text-align: left;
+    overflow: hidden;
+
+}
+.form .form-cadastro{
+    background-color:white; 
+    margin-top: 50px;
+    margin-bottom: 40px;
+    text-align-last: left;             
+}
+.form .form-cadastro label{
+    font-size: 15px;
+    margin-left: 30px;
+    color:#777070;    
+    font-family: 'Open Sans','Helvetica Neue','Helvetica',Arial,Verdana,sans-serif;
+}
+
+.form .form-cadastro input{
+    width: 350px;
+    margin-top: 5px;
+    margin-left: 30px;
+    margin-bottom: 5px;
+    height: 30px;
+    border: solid 2px #e5e5e5;
+    transition: border-color 0.3s;
+
+    
+
+}
+.form .form-cadastro textarea{
+    margin-top: 10px;
+    margin-left: 30px;
+    border: solid 2px #e5e5e5;
+
+}
+#botao{
+    margin-top: 20px;
+    width: 90px;
+    color: white;
+    height:50px;
+    padding: 15px;
+    margin-left: 310px;
+    border-radius: 10%;
+    display: inline-block;  
+    cursor: pointer;
+    background-color:rgb(0, 138, 230);
+}
+
+#titulo h2{
+    font-size: 25px; 
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+hr{
+    margin-bottom: 10px;
+    margin-top: 5px;
+    color:#777070; 
+
+}
